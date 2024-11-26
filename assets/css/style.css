@@ -1,0 +1,20 @@
+/* Stili personalizzati */
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.photo-preview {
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    margin-left: 4px;
+}
